@@ -44,5 +44,5 @@ jobs:
         application_name: Python-app-django1
         environment_name: python-django-app
         version_label: "Python-app-django1-${{ steps.format-time.outputs.replaced }}"
-        region: us-east-1
+        region: us-east-2
         deployment_package: deploy.zip
