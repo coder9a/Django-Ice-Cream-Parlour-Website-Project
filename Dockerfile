@@ -4,4 +4,4 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /django
 COPY requirements.txt /requirements.txt
 RUN pip install -r requirements.txt
-ENTRYPOINT [ "python", "manage.py", "runserver" ]
+CMD [ "python", "manage.py", "runserver" ]
