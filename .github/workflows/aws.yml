@@ -45,4 +45,4 @@ jobs:
         environment_name: Django-env
         version_label: "django-${{ steps.format-time.outputs.replaced }}"
         region: us-east-1
-        deployment_package: docker push coder9a/django-test
+        deployment_package: deploy.zip
